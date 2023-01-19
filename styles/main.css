@@ -1,0 +1,87 @@
+
+.header {
+    text-align: center;
+    background-color: ;
+}
+
+main {
+    ackground-color: rgb(11, 49, 49);
+    padding: 1rem;
+    border-radius: 1rem
+}
+
+
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 1rem;
+align-items: flex-start;
+max-width: 50em;
+}
+.card {
+    background: white;
+    padding: 1rem;
+    border: 2px solid #777;
+    border-radius: 1rem;
+    
+
+}
+
+.card.card-shadow {
+    border: none;
+    box-shadow: 0 2px 50px 0 rgba(0,0,0,.2);
+}
+
+.card-header {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.card-header.card-image {
+    overflow: hidden;
+    border-radius: 1rem;
+    text-align: center;
+    
+
+}
+
+.card-header.card-image > img {
+    display:block;
+    width: 100%;
+    max-height: 200px;
+    aspect-ratio: 16/9 ;
+    object-position: center;
+}
+
+.card-body {
+    font-size: .9rem;
+    
+}
+
+.card-footer {
+    margin-top: 1rem;
+}
+.btn {
+    background: hsl(200,50%, 50%);
+    color: white;
+    border: none;
+    padding: .5em .75em;
+    border-radius: .25em;
+    cursor: pointer;
+
+}
+
+.caretips-container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 1rem;
+    border: 2px solid #777;
+    border-radius: 1rem;
+    min-height: 10em;
+    min-width: 50em;
+    align-items: flex-start;
+
+
+}
